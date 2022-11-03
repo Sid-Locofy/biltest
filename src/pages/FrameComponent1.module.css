@@ -1,0 +1,31 @@
+.rectangleDiv {
+  background-color: var(--color-gray-200);
+}
+.rectangleDiv,
+.rectangleDiv1,
+.rectangleDiv2,
+.rectangleDiv3 {
+  position: relative;
+  border-radius: var(--br-sm);
+  width: 88.92px;
+  height: 88.92px;
+  flex-shrink: 0;
+}
+.rectangleDiv1 {
+  background-color: #bb0219;
+}
+.rectangleDiv2 {
+  background-color: var(--color-red);
+}
+.rectangleDiv3 {
+  background-color: var(--studio-darkmode-allwhite-ffffff);
+}
+.frameDiv {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 18px;
+}

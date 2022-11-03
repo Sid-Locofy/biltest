@@ -1,0 +1,83 @@
+.homeButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  font-size: var(--font-size-4xs);
+  font-weight: 700;
+  font-family: var(--font-poppins);
+  color: var(--color-red);
+  text-align: center;
+}
+.aboutDCDiv,
+.homeButton,
+.ourServicesButton {
+  position: relative;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.ourServicesButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  font-size: var(--font-size-4xs);
+  font-family: var(--font-poppins);
+  color: var(--color-gray-200);
+  text-align: center;
+}
+.headerLinksDiv {
+  position: absolute;
+  top: 40.95px;
+  left: 511.5px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.getAQuote {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  font-size: var(--font-size-4xs);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  color: var(--studio-darkmode-allwhite-ffffff);
+  text-align: center;
+  display: inline-block;
+}
+.frameDiv {
+  position: absolute;
+  top: 25.83px;
+  left: 1154px;
+  border-radius: var(--br-2xl);
+  background-color: var(--color-red);
+  display: flex;
+  flex-direction: row;
+  padding: 14px var(--padding-lg);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.desktop1 {
+  position: relative;
+  background-color: var(--studio-darkmode-allwhite-ffffff);
+  width: 100%;
+  height: 2606px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-4xs);
+  color: var(--color-gray-200);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 768px) {
+  .headerLinksDiv {
+    display: none;
+  }
+}

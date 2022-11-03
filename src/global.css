@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Helvetica:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Futura:wght@700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-helvetica: Helvetica;
+  --font-poppins: Poppins;
+  --font-futura: Futura;
+  --font-spartan: Spartan;
+
+  /* font sizes */
+  --font-size-4xs: 14px;
+  --font-size-3xs: 15.93px;
+  --font-size-2xs: 16px;
+  --font-size-xs: 20px;
+  --font-size-sm: 22px;
+  --font-size-base: 24px;
+  --font-size-lg: 40px;
+  --font-size-xl: 60px;
+
+  /* Colors */
+  --color-gray-100: #7e8586;
+  --color-gray-200: #373c3d;
+  --color-gray-300: rgba(55, 60, 61, 0.2);
+  --studio-darkmode-allwhite-ffffff: #fff;
+  --color-turquoise: #31e4a4;
+  --color-red: #e6162f;
+
+  /* Gaps */
+  --gap-xs: 6px;
+  --gap-sm: 10px;
+  --gap-md: 19px;
+  --gap-lg: 20px;
+  --gap-xl: 34px;
+
+  /* Paddings */
+  --padding-xs: 12px;
+  --padding-sm: 16px;
+  --padding-md: 30px;
+  --padding-lg: 36px;
+  --padding-xl: 40px;
+
+  /* border radiuses */
+  --br-3xs: 0.7px;
+  --br-2xs: 1px;
+  --br-xs: 8px;
+  --br-sm: 9px;
+  --br-md: 10px;
+  --br-lg: 13px;
+  --br-xl: 30px;
+  --br-2xl: 100px;
+}
